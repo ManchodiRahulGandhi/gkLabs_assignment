@@ -13,11 +13,11 @@ public class viewDetailsDAO {
 	
 	public ArrayList<DetailsBean> retrieve(){
 		try {
-			Connection co = DBConnection.getCon();
+			Connection con = DBConnection.getCon();
 			
 			// Accessinng Database Connection
 			
-			PreparedStatement ps = co.prepareStatement("select * from user_details");
+			PreparedStatement ps = con.prepareStatement("select * from user_details");
 			
 			
 			ResultSet rs = ps.executeQuery();

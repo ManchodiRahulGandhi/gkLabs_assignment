@@ -51,7 +51,7 @@ public class viewAllUserDeatilsServlet extends GenericServlet{
 			});
 		}
 		
-		pw.println("<a href='hom.html'>home</a>");
+		pw.println("<a href='index.html'>home</a>");
 				
 		
 	}
