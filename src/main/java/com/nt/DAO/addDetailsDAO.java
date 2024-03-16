@@ -13,7 +13,7 @@ public class addDetailsDAO {
 		
 		try {
 				Connection con = DBConnection.getCon();
-				PreparedStatement ps = con.prepareStatement("insert into user_details VALUES(user_id.nextval,?, ?, ?, TO_DATE(?, 'MM-DD-YYYY'))");
+				PreparedStatement ps = con.prepareStatement("insert into user_details VALUES(user_id.nextval,?, ?, ?, TO_DATE(?, 'MMM-DD-YYYY'))");
 				ps.setString(1, b.getuName());
 				ps.setString(2, b.getuEmail());
 				ps.setInt(3, b.getAge());
