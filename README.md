@@ -1,4 +1,4 @@
-=> intail create data base
+=> intailly create data base
         CREATE TABLE user_details(
             ID NUMBER,
             NAME VARCHAR2(20),
